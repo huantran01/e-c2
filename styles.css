@@ -21,6 +21,9 @@ button:active{
 .purple{
     color: #7342d6;
 }
+.no__cusor{
+    cursor: not-allowed;
+}
 nav{
     height: 80px;
     display: flex;
@@ -235,7 +238,36 @@ color: #fabf2a;
 }
 /*explore*/
 #explore{
-    padding-top: 8vw;
-    background-color:  rgba(115, 66, 214, 0.1);
-   
+    background-color:  rgba(115, 66, 214, 0.1);  
+}
+
+/*footer*/
+footer{
+    background-color: #242424;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer__logo{
+    display: flex;
+}
+
+.footer__logo--img{
+width: 160px;
+filter: grayscale(1) invert(1);
+}
+
+.footer__link ,.footer__copyright{
+    color: white;
+}
+
+.footer__list{
+    margin: 20px 0 24px 0;
+}
+
+.footer__link{
+    padding: 0 8px;
 }
